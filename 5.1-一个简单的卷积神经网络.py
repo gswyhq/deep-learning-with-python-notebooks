@@ -58,6 +58,9 @@ model.summary()
 from keras.datasets import mnist
 from keras.utils import to_categorical
 
+# 将从`https://s3.amazonaws.com/img-datasets/mnist.npz`下载数据到： ~/.keras/datasets/mnist.npz
+# 下载链接：https://pan.baidu.com/s/1jH6uFFC 密码: dw3d
+
 (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
 
 train_images = train_images.reshape((60000, 28, 28, 1))
