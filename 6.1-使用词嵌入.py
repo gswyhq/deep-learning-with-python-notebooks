@@ -170,7 +170,7 @@ history = model.fit(x_train, y_train,
 
 import os
 
-imdb_dir = '/home/ubuntu/data/aclImdb'
+imdb_dir = '/home/gswyhq/data/aclImdb'
 train_dir = os.path.join(imdb_dir, 'train')
 
 labels = []

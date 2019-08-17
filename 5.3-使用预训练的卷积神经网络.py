@@ -240,7 +240,7 @@ plt.plot(epochs, val_loss, 'b', label='Validation loss')
 plt.title('Training and validation loss')
 plt.legend()
 
-plt.show()
+plt.show(block=False)  # 这里有问题，会一直卡在这里，不执行后面的代码；当设置block=False,时，才会继续后面的程序运行；
 
 
 # 我们的验证精度达到了约 90%,比上一节从头开始训练的小型模型效果要好得多。
@@ -377,7 +377,7 @@ plt.plot(epochs, val_loss, 'b', label='Validation loss')
 plt.title('Training and validation loss')
 plt.legend()
 
-plt.show()
+plt.show(block=False)
 
 
 #
@@ -472,7 +472,7 @@ plt.plot(epochs, val_loss, 'b', label='Validation loss')
 plt.title('Training and validation loss')
 plt.legend()
 
-plt.show()
+plt.show(block=False)
 
 
 # 
@@ -506,7 +506,7 @@ plt.plot(epochs,
 plt.title('Training and validation loss')
 plt.legend()
 
-plt.show()
+plt.show(block=False)
 
 
 # 验证精度曲线变得更清楚。可以看到,精度值提高了 1%,从约 96% 提高到 97% 以上。

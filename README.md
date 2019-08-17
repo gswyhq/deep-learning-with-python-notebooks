@@ -1,37 +1,41 @@
-# Companion Jupyter notebooks for the book "Deep Learning with Python"
+# "Deep Learning with Python"一书的代码示例及笔记
 
-This repository contains Jupyter notebooks implementing the code samples found in the book [Deep Learning with Python (Manning Publications)](https://www.manning.com/books/deep-learning-with-python?a_aid=keras&a_bid=76564dff). Note that the original text of the book features far more content than you will find in these notebooks, in particular further explanations and figures. Here we have only included the code samples themselves and immediately related surrounding comments.
+主要是 [Deep Learning with Python (Manning Publications)](https://www.manning.com/books/deep-learning-with-python?a_aid=keras&a_bid=76564dff)一书中的代码示例
 
-These notebooks use Python 3.6 and Keras 2.0.8. They were generated on a p2.xlarge EC2 instance.
+原始代码来源：https://github.com/fchollet/deep-learning-with-python-notebooks
 
-## Table of contents
+Python版本： 3.6.5
 
-* Chapter 2:
-    * [2.1: A first look at a neural network](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/2.1-a-first-look-at-a-neural-network.ipynb)
-* Chapter 3:
-    * [3.5: Classifying movie reviews](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/3.5-classifying-movie-reviews.ipynb)
-    * [3.6: Classifying newswires](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/3.6-classifying-newswires.ipynb)
-    * [3.7: Predicting house prices](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/3.7-predicting-house-prices.ipynb)
-* Chapter 4:
-    * [4.4: Underfitting and overfitting](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/4.4-overfitting-and-underfitting.ipynb)
-* Chapter 5:
-    * [5.1: Introduction to convnets](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/5.1-introduction-to-convnets.ipynb)
-    * [5.2: Using convnets with small datasets](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/5.2-using-convnets-with-small-datasets.ipynb)
-    * [5.3: Using a pre-trained convnet](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/5.3-using-a-pretrained-convnet.ipynb)
-    * [5.4: Visualizing what convnets learn](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/5.4-visualizing-what-convnets-learn.ipynb)
-* Chapter 6:
-    * [6.1: One-hot encoding of words or characters](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/6.1-one-hot-encoding-of-words-or-characters.ipynb)
-    * [6.1: Using word embeddings](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/6.1-using-word-embeddings.ipynb)
-    * [6.2: Understanding RNNs](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/6.2-understanding-recurrent-neural-networks.ipynb)
-    * [6.3: Advanced usage of RNNs](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/6.3-advanced-usage-of-recurrent-neural-networks.ipynb)
-    * [6.4: Sequence processing with convnets](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/6.4-sequence-processing-with-convnets.ipynb)
-* Chapter 8:
-    * [8.1: Text generation with LSTM](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/8.1-text-generation-with-lstm.ipynb)
-    * [8.2: Deep dream](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/8.2-deep-dream.ipynb)
-    * [8.3: Neural style transfer](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/8.3-neural-style-transfer.ipynb)
-    * [8.4: Generating images with VAEs](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/8.4-generating-images-with-vaes.ipynb)
-    * [8.5: Introduction to GANs](http://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/8.5-introduction-to-gans.ipynb
-)
+操作系统：Deepin GNU/Linux 15.7
 
-jupyter notebook --ip 0.0.0.0 --port 9999
+[python依赖包版本](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/requirements.txt)
+
+## 目录
+
+* 第二章:
+    * [2.1-用不到20行的代码对手写数字进行分类](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/2.1-用不到20行的代码对手写数字进行分类.py)
+* 第三章:    
+    * [3.5-将电影评论划分为正面或负面-二分类问题](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/3.5-将电影评论划分为正面或负面-二分类问题.py)
+    * [3.6-将新闻按主题分类-多分类问题](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/3.6-将新闻按主题分类-多分类问题.py)
+    * [3.7-根据房地产数据估算房屋价格-回归问题](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/3.7-根据房地产数据估算房屋价格-回归问题.py)
+* 第四章:    
+    * [4.4-过拟合与欠拟合](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/4.4-过拟合与欠拟合.py)
+* 第五章:    
+    * [5.1-一个简单的卷积神经网络](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/5.1-一个简单的卷积神经网络.py)
+    * [5.2-在小型数据集上从头开始训练一个卷积神经网络](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/5.2-在小型数据集上从头开始训练一个卷积神经网络.py)
+    * [5.3-使用预训练的卷积神经网络](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/5.3-使用预训练的卷积神经网络.py)
+    * [5.4-卷积神经网络的可视化](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/5.4-卷积神经网络的可视化.py)
+* 第六章:    
+    * [6.1-单词和字符的one-hot编码](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/6.1-单词和字符的one-hot编码.py)
+    * [6.1-使用词嵌入](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/6.1-使用词嵌入.py)
+    * [6.2-理解循环神经网络](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/6.2-理解循环神经网络.py)
+    * [6.3-循环神经网络的高级用法](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/6.3-循环神经网络的高级用法.py)
+    * [6.4-用卷积神经网络处理序列](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/6.4-用卷积神经网络处理序列.py)
+* 第八章:    
+    * [8.1-使用LSTM生成文本](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/8.1-使用LSTM生成文本.py)
+    * [8.2-deep-dream](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/8.2-deep-dream.py)
+    * [8.3-神经风格迁移](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/8.3-神经风格迁移.py)
+    * [8.4-用变分自编码器生成图像](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/8.4-用变分自编码器生成图像.py)
+    * [8.5-生成式对抗网络简介](https://github.com/gswyhq/deep-learning-with-python-notebooks/blob/master/8.5-生成式对抗网络简介.py)
+
 

@@ -1,4 +1,4 @@
-# pipreqs /home/gswyhq/information_extraction_qa
+# pipreqs /home/gswyhq/github_projects/deep-learning-with-python-notebooks
 # sudo pip3 install -r requirements.txt -i http://pypi.douban.com/simple --trusted-host=pypi.douban.com
 Keras==2.2.4
 tensorflow==1.12.0
